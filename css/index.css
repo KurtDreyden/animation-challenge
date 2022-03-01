@@ -1,6 +1,7 @@
  /* The animation code */
 @keyframes divcolor{
     0% {background-color: red;}
+    20% {background-color: yellow;})
     100%{background-color: blue;}
 }
 

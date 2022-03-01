@@ -1,12 +1,54 @@
 <!doctype html>
 <html lang=en>
     <head>
-        <meta charset=utf-8>
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/animation.css">
         <title>My First animation</title>
+
     </head>
+ 
 
     <body>
-        <div></div>
+        <a href="Images/linkedin.png">Try hovering over this link.</a>
+        <div>  <img src=" Images/linkedin.png">
+        </div>
+        
+       
+            
+        <form actiion="#0">
+            
+            <div id="firstname">
+                <label for="firstname">User id</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Required, lenght of 5 to 20 characters" required>
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="required, lenght of 4 to 12 characters" pattern="(!@#$[a-z]%^&*)">
+            <div class="requirements"> Must be a valid password!</div>
+            </div>
+
+            <div>
+            <label for="lastname">"Name"</label>
+            <input type="text" name="name" id="lastname" placeholder="Required,letters only" required>
+            </div>
+
+            <div>
+                <input type="tel" name="tel" id="tel" placeholder="Required 10 numbers only" patterrn="[0-10]"required>
+                <label for="tel">Phone No.</label>
+            <div class="requirements"must be a valid phone number!></div>
+            </div>
+
+            <div>
+                <input type="email" name="email" id="email" placeholder="required">
+                <label for="email"> Email
+            </label>
+            <div class="requirements">Must be a valid email address!</div>
+            </div>
+
+            <div>
+                <input type="password" name="password" id="password" placeholder=""
+            </div>
+        </form>
     </body>
 </html>

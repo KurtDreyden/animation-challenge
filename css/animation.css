@@ -6,12 +6,58 @@
   100% {background-color: green;}
 }
 
+
 /* The element to apply the animation to */
 div {
+  background-size: 150px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: animatedSquare;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  transform: translate(100px,70%);
+  animation-direction: alternate;   
+
+} 
+.animation{
+background-size: 150px;
   width: 100px;
   height: 100px;
   background-color: red;
   animation-name: animatedSquare;
   animation-duration: 4s;
-  animation-iteration-count: infinite;    
-} 
+  animation-iteration-count: infinite;
+  transform: translate(100px,70%);
+  animation-direction: alternate;   
+}
+
+input[placeholder], [placeholder], *[placeholder]{
+  color:brown !important;
+}
+
+a:hover {
+color: (green);
+}
+
+.placeholder{
+  color:blue
+}
+:-ms-input-placeholder{
+  color:yellowgreen
+}
+body {
+background: rgba(red, green, blue, alpha); 
+padding: 20px;
+margin-top 600%; 
+}
+form{
+  max width: 450px;
+  margin:0 auto;
+}
+form>div{
+  margin: top 5px;
+  position: relative;
+  background: purple;
+  border-bottom:1px solid green;
+}
